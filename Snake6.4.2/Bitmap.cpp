@@ -1,0 +1,27 @@
+// Bitmap.cpp: implementation of the Bitmap class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Snake.h"
+#include "Bitmap.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+Bitmap::Bitmap()
+{
+  
+}
+
+Bitmap::~Bitmap()
+{
+
+}

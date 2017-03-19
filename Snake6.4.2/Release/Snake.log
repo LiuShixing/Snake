@@ -1,0 +1,43 @@
+﻿生成启动时间为 2014/11/3 18:24:59。
+     1>项目“C:\Users\ASUS\Desktop\Snake6.4\Snake.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Release\Snake.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\Snake.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameSound.cpp MainFrm.cpp Snake1.cpp SnakeView.cpp ViewFunction.cpp
+         GameSound.cpp
+         MainFrm.cpp
+         Snake1.cpp
+         SnakeView.cpp
+         ViewFunction.cpp
+     1>ViewFunction.cpp(137): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\Snake.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:".\Release\Snake.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\ASUS\Desktop\Snake6.4\Release\Snake.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Snake.lib" /MACHINE:X86 .\Release\Snake.res
+         .\Release\Bitmap.obj
+         .\Release\Enter.obj
+         .\Release\Enter2.obj
+         .\Release\EnterHero.obj
+         .\Release\GameSound.obj
+         .\Release\MainFrm.obj
+         .\Release\Player.obj
+         .\Release\Snake.obj
+         .\Release\Snake1.obj
+         .\Release\SnakeDoc.obj
+         .\Release\SnakeView.obj
+         .\Release\StdAfx.obj
+         .\Release\ViewFunction.obj
+         Snake.vcxproj -> C:\Users\ASUS\Desktop\Snake6.4\.\Release\Snake.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\Snake.exe;#1" /manifest .\Release\Snake.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“.\Release\Snake.unsuccessfulbuild”。
+         正在对“.\Release\Snake.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\ASUS\Desktop\Snake6.4\Snake.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.55
